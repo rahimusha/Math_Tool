@@ -24,7 +24,7 @@ def factorial(n):
     for i in range(2, n + 1):
         result *= i
     return result
-def logarithm_premium(a, base=10):
+def logarithm_new(a, base=10):
     if a <= 0 or base <= 1:
         raise ValueError("Invalid input for logarithm")
     return math.log(a, base)
