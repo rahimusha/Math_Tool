@@ -11,3 +11,7 @@ def divide(a, b):
     return a / b
 def power(a, b):
     return a ** b
+def square_root(a):
+    if a < 0:
+        raise ValueError("Cannot take square root of negative number")
+    return a ** 0.5
